@@ -342,6 +342,87 @@ nav {
 
 /* contact */
 .contact-container {
-    width: 1140px;
+  width: 1140px;
   margin: 0 auto;
+}
+
+.contact-me {
+  background-image: url("../assets/handshake.jpg");
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  /* height: 314px; */
+  padding: 64px 48px;
+}
+
+.contact-text {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.contact-desc {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.contact-input {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  width: 548px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+}
+
+.submit-btn {
+  padding: 15px 20px 15px 20px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+width: 1140px;
+}
+footer{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+padding: 32px 150px 32px 150px;
+}
+
+.footer-text{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 }
