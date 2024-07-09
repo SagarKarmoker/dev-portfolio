@@ -95,3 +95,253 @@ nav {
   letter-spacing: 0%;
   text-align: center;
 }
+
+.why-container {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  width: 1140px;
+  margin-top: 74px;
+  margin-bottom: 74px;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 74px; */
+  /* padding: 0px 150px 0px 150px; */
+}
+
+.why-section {
+  /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+  margin: 0 auto;
+}
+.why-content {
+  padding: 80px 97px 80px 97px;
+}
+
+.why-intro {
+  margin: 24px 0px;
+}
+
+.why-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.why-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.content-1 {
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.c1-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.c1-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.c1-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.c1-left {
+  width: 477px;
+}
+
+.content-why {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.content-2 {
+  padding: 48px;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.c2-right {
+  width: 477px;
+  margin-left: 32px;
+}
+
+.my-ins {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.my-ins-intro {
+  width: 852px;
+  margin: 0 auto;
+}
+
+.my-ins-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+}
+
+.video-radius {
+  border-radius: 16px;
+}
+
+.my-curr {
+  width: 1140px;
+  margin-top: 150px;
+  margin: 150px auto 111px auto;
+}
+
+.curr-target {
+  display: flex;
+  margin: 48px auto 0 auto;
+  gap: 24px;
+}
+
+.card {
+  width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.card-logo {
+  width: 56px;
+  height: 56px;
+}
+
+.card-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.card-desc {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.card-btn {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.html {
+  background: rgba(255, 76, 30, 0.05);
+}
+.css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.js {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.my-next {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.next-targets {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 48px;
+}
+.next-card {
+  padding: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  gap: 24px;
+  height: 220px;
+  background: rgb(255, 255, 255);
+}
+.next-card-logo {
+  width: 94.78px;
+  height: 84.41px;
+}
+
+.next-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+/* contact */
+.contact-container {
+    width: 1140px;
+  margin: 0 auto;
+}
