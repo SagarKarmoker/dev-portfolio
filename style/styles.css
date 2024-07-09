@@ -316,6 +316,7 @@ nav {
   flex-direction: column;
   gap: 24px;
   margin-top: 48px;
+  margin-bottom: 45px;
 }
 .next-card {
   padding: 40px;
@@ -425,4 +426,8 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+.next-title{
+    margin: 0;
 }
