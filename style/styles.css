@@ -21,6 +21,8 @@ nav {
 .name {
   font-weight: 800;
   font-size: 28px;
+  text-decoration: none;
+  color: black;
 }
 
 .btn-down {
@@ -30,6 +32,7 @@ nav {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  text-decoration: none;
 
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -57,7 +60,7 @@ nav {
   padding: 0px;
 
   width: 998px;
-  height: 582px;
+  height: 610px;
   padding-top: 26px;
 }
 
@@ -94,6 +97,8 @@ nav {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .why-container {
@@ -196,6 +201,7 @@ nav {
 
 .c1-left {
   width: 477px;
+  height: auto;
 }
 
 .content-why {
@@ -403,6 +409,7 @@ input {
   font-weight: 600;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 
 .footer{
